@@ -2,10 +2,14 @@ h1{
     color: green;
     background-color: black;
     text-align: center;
+    border-style: solid;
+    border-color: green;
+    border-radius: 2px;
 }
 
 h2{
     font-size: 18px;
+
 }
 
 h3{
@@ -18,6 +22,7 @@ h4{
 body{
     text-align: center;
     background-color: rgb(164, 207, 253);
+   
     
 }
 img{
@@ -27,14 +32,26 @@ img{
     border-width: 3px;
     border-color: black;
     border-radius: 8px;
+    box-shadow: 10px 8px 8px black;
+    
 }
 
 button{
+    
     background-color: rgb(255, 255, 175);
+    
 }
-
 
 button:hover{
     background-color: rgb(213, 163, 242);
     cursor: pointer;
+}
+
+input{
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(11, 11, 155);
+    border-radius: 10px;
+
 }

@@ -1,0 +1,40 @@
+h1{
+    color: green;
+    background-color: black;
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 18px;
+}
+body{
+    text-align: center;
+    background-color: rgb(164, 207, 253);
+    
+}
+img{
+    width: 500px;
+    height: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+button{
+    background-color: rgb(255, 255, 175);
+}
+
+
+button:hover{
+    background-color: rgb(213, 163, 242);
+    cursor: pointer;
+}
